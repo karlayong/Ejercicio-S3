@@ -3,7 +3,7 @@
 const number = document.getElementById('numbers');
 const resutl = document.getElementById('result');
 
-let a=prompt('Introduzca el primer numero');
+let a=prompt('Introduzca un numero para saber si es + o - ');
 
 
 numbers.textContent = `El numero introducido es ${a}`
