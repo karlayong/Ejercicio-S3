@@ -1,5 +1,5 @@
 
-/* Se pide ingresar 2 números. mostrar los números ordenados de forma ascendente*/
+/* Se pide ingresar 2 números. Mostrar los números ordenados de forma ascendente*/
 
 const number = document.getElementById('numbers');
 const resutl = document.getElementById('result');

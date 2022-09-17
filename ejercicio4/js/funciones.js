@@ -2,11 +2,13 @@
 producto, el precio y el monto del igv*/
 
 let producto=prompt('Introduzca el nombre de prodcuto');
-let precio=prompt('Introduzca el precio del producto')
+let precio=prompt('Introduzca el precio del producto');
 
-var  precioIGV = precio * 0.18
+var igv = 0.18
+var  precioIGV = precio * igv
 
-    alert(precioIGV)
-
+document.write( 'El producto es; '+ producto);
+document.write( '<br>','El precio es: '+ precio);
+document.write( '<br>','El nonto del IGV del producto es: '+ precioIGV);
     
   
